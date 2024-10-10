@@ -1,6 +1,6 @@
 h1{color:white;
 font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-font-size: 50px; background-color: red;
+font-size: 50px; background-color: black;
 text-align: center;}
 .article{background-color: gold;border-style: solid;}
 /* hover over link */
@@ -16,6 +16,6 @@ p{opacity: 10px; }
 overflow: scroll;
 height: 100;}
 .img{position: absolute;
-left: 500px;
+left: 600px;
 right: 51px;
 z-index: -1;}
