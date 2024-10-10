@@ -1,4 +1,4 @@
-h1{color:white;
+h1{color:red;
 font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 font-size: 50px; background-color: black;
 text-align: center;}
@@ -16,6 +16,6 @@ p{opacity: 10px; }
 overflow: scroll;
 height: 100;}
 .img{position: absolute;
-left: 170px;
+left: 355px;
 right: 51px;
 z-index: -1;}
