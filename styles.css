@@ -50,13 +50,7 @@ footer
     padding-top: 10px;
     margin-top: 20px;
     color: #000;}
-
-/* I used AI (Microsoft Copilot) to figure out the video stuff. 
-I looked up how to embed a YT video, but after that I could not figure out how to make my video mobile friendly.
-Every time I inspected the video on Inspector it would break through my flexbox and keep an absolute position.
-So I used Copilot to generate the HTML and CSS for my Iframe video box.
-Now it works pretty well and it flexes with my box.
-I guess it is because of this great CSS you see below*/
+/*This was the biggest pain*/
 .video-container 
 {position: relative;
     padding-bottom: 56.25%; /* 16:9 aspect ratio */
@@ -64,7 +58,7 @@ I guess it is because of this great CSS you see below*/
     overflow: hidden;
     max-width: 100%;
     background: #000;}
-  
+
   .video-container iframe 
   {position: absolute;
     top: 0;

@@ -8,7 +8,6 @@
     <div class="container">
         <header>
             <h1>Interactives</h1>
-            <p>Explore various interactive visualizations and articles.</p>
             <nav>
                 <a href="index.html">Home</a>
                 <a href="about.html">About</a>
@@ -17,7 +16,8 @@
             </nav>
         </header>
         <main>
-            <h2>Chicago's Safest CTA Lines: Navigating the City's Most Secure Routes</h2>
+            <h2>Chicago's Safest CTA Lines: Navigating the City's Routes</h2>
+            <p>By Jovani Contreras</p>
             <p>Safety on the Chicago Transit Authority (CTA) varies across its network of train lines. According to recent data, some lines are considered safer than others, while certain routes have higher crime rates.</p>
             <p>Here is a map displaying the most common crimes on CTA lines:</p>
             <div class="flourish-embed flourish-map" 
@@ -28,7 +28,6 @@
             width="100%" alt="map visualization" />
             </noscript></div>
             <p>Created by Jovani Contreras</p>
-            <br>
             <p>
                 <a href ="https://data.cityofchicago.org/Public-Safety/Crimes-2001-to-Present/ijzp-q8t2/about_data">According to data from the Chicago Data Portal</a>, the most common crimes on the Chicago Transit Authority (CTA) system include theft, robbery, and battery. These incidents are reported across various stations and trains, with certain areas experiencing higher rates of crime. 
                 <br><br>
@@ -46,8 +45,7 @@
                 width="100%" alt="chart visualization" />
                 </noscript></div>
             <p>Created by Jovani Contreras</p>
-            <br>
-            <p>regardless of which line you take, here are some tips to help you stay safe while using the CTA:</p>
+            <p>Regardless of which line you take, here are some tips to help you stay safe while using the CTA:</p>
             <ul>
                 <li>Be Aware of Your Surroundings: Always be conscious of what's happening around you. Avoid distractions like loud music or excessive phone use.</li>
                 <li>Travel in Groups: If possible, travel with others, especially during late hours.</li>
@@ -62,11 +60,11 @@
             <p>To create this article:</p>
             <ul>
                 <li>I exported the data to a CSV file</li>
-                <li>To create the map, I exported a GEOJSON file of the Chicago area and CTA lines</li>
+                <li>To create the map, I exported a JSON file of the Chicago area and CTA lines</li>
                 <li>I filtered the data by date and then created a pivot table of count and location</li>
                 <li>Then, I exported my spreadsheets and put them in Flourish</li>
                 <li>In Flourish, I used templates for a map and a pie chart</li>
-                <li>The map needed the data and the GEOJSON to configure locations</li>
+                <li>The map needed the data and the JSON to configure locations</li>
                 <li>Once the map was configured, I used location data to add points and lines</li>
             </ul>
             

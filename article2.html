@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Personal Profile - Interactives</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<article.body>
+    <div class="container">
+        <header>
+            <h1>Interactives</h1>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="works.html">Works</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+        </header>
+        <main>
+            <h2>Discover Chicago's Most Affordable Neighborhoods</h2>
+            <p>By Jovani Contreras</p>
+            <p>The City of Chicago has been actively working to address the affordable housing crisis by sponsoring numerous housing developments across the city. According to data from the Chicago Data Portal, the most city-sponsored affordable housing units are concentrated in specific neighborhoods, providing much-needed relief to low-income residents</p>
+            <p>Here is a map displaying city sponsored affordable housing units in Chicago:</p>
+            <div class="flourish-embed flourish-map" data-src="visualisation/20560979">
+                <script src="https://public.flourish.studio/resources/embed.js">
+                </script><noscript>
+                <img src="https://public.flourish.studio/visualisation/20560979/thumbnail" width="100%" alt="map visualization" />
+            </noscript></div>
+            <p>Created by Jovani Contreras</p>
+            <p>The Chicago Department of Housing (DOH) and the Department of Planning and Development (DPD) have collaborated to identify and support affordable housing initiatives. The data reveals that the Grand Boulevard and Near Westside neighborhoods have the highest number of affordable rental units. These areas have benefited from various programs, including those funded by the U.S. Department of Housing and Urban Development (HUD) and the Illinois Housing Development Authority (IHDA)</p>
+            <div class="flourish-embed flourish-chart" data-src="visualisation/20570715">
+            <script src="https://public.flourish.studio/resources/embed.js">
+            </script><noscript>
+            <img src="https://public.flourish.studio/visualisation/20570715/thumbnail" width="100%" alt="chart visualization" />
+            </noscript></div>
+            <p>Created by Jovani Contreras</p>
+            <p>For more information on affordable rental housing opportunities and to view the full data set, visit the Chicago Data Portal.</p>
+            <h2>Methodology</h2>
+            <p> The data used to create this article is from the <a href="https://data.cityofchicago.org/Public-Safety/Crimes-2001-to-Present/ijzp-q8t2/about_data">Chicago Data Portal's crime statistics</a>
+            <br>
+            <p>To create this article:</p>
+            <ul>
+                <li>I exported the data to a CSV file</li>
+                <li>To create the map, I exported a JSON file of the Chicago area and affordable housing unit latitudes and longitudes</li>
+                <li>I filtered the data and then created a pivot table of count and community area</li>
+                <li>Then, I exported my spreadsheets and put them in Flourish</li>
+                <li>In Flourish, I used templates for a map and a bar chart</li>
+                <li>The map needed the data (latitude and longitude units) and the JSON to configure locations</li>
+                <li>Once the map was configured, I used location data to add points</li>
+                <li>The size of each point is configured by the number of housing units in a development</li>
+            </ul>
+            
+            <h2>Spreadsheets</h2>
+            <a href="https://docs.google.com/spreadsheets/d/1JHNF2YnjoVbOncmcOkhcKsaHGSdqdlZmE82pr4TiKm0/edit?usp=sharing">Affordable Housing Units (Filtered by ZIP)</a>
+            <br>
+            <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSJfI02PhsakosrXbbXwhl1K1BhEMmjupr3u38I06QEL2zSXMD530Sp89i30gKbNsnpRZ9tXRh_HBUA/pubhtml?gid=1540472578&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
+            <br>
+            <br>
+            <a href="https://docs.google.com/spreadsheets/d/1JHNF2YnjoVbOncmcOkhcKsaHGSdqdlZmE82pr4TiKm0/edit?gid=1192312291#gid=1192312291">Affordable Housing Units (Pivot table)</a>
+            <br>
+            <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSJfI02PhsakosrXbbXwhl1K1BhEMmjupr3u38I06QEL2zSXMD530Sp89i30gKbNsnpRZ9tXRh_HBUA/pubhtml?gid=1192312291&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
+
+
+        </main>
+        <footer>
+        </footer>
+    </div>
+</body>
+</html>
